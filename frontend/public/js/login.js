@@ -7,7 +7,6 @@ async function iniciarSesion(event) {
 
   try {
     const response = await fetch("http://3.132.200.37:8000/usuario/login", {
-    //const response = await fetch("http://localhost:8000/usuario/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
